@@ -1,6 +1,7 @@
 const IS_PROD = ["production", "prod"].includes(process.env.NODE_ENV);
 module.exports = {
     publicPath: "/",
+    indexPath: "edit.html",
     configureWebpack: config => {
         if (IS_PROD) {
             config.externals = {
