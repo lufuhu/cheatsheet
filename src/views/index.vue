@@ -3,7 +3,7 @@
     <div class="w-screen h-screen flex">
       <div class="flex-none w-64 flex flex-col h-full border-r">
         <div class="border-b flex-none h-10 px-3 flex items-center justify-center">
-          <a to="/" class="flex-1 flex items-center">
+          <a href="/" class="flex-1 flex items-center">
             <img class="w-6 h-6" src="../assets/logo.png">
             <div class="font-bold text-sm">速查表</div>
           </a>
