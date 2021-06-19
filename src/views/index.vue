@@ -3,10 +3,10 @@
     <div class="w-screen h-screen flex">
       <div class="flex-none w-64 flex flex-col h-full border-r">
         <div class="border-b flex-none h-10 px-3 flex items-center justify-center">
-          <router-link to="/" class="flex-1 flex items-center">
+          <a to="/" class="flex-1 flex items-center">
             <img class="w-6 h-6" src="../assets/logo.png">
             <div class="font-bold text-sm">速查表</div>
-          </router-link>
+          </a>
           <el-button @click="add()" size="mini" type="text" round><i class="el-icon-plus"></i>新增</el-button>
         </div>
         <div class="flex-1 overflow-y-auto overflow-x-hidden h-0">
