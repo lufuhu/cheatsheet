@@ -7,7 +7,7 @@ Vue.use(VueRouter)
 
 const routes = [
     {
-        path: '/edit/:pid?/:id?',
+        path: '/:pid?/:id?',
         name: 'Index',
         component: Index,
     },
